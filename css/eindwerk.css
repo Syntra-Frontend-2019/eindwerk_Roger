@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito'); /*google font*/
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+    padding: 0 20px;
+    }
+
+
+.title{
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 15px;
+   }
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    }
+
+
+#input{
+    
+    padding: 20px;
+    background: #81C784;
+    max-width: 400px;
+    min-width: 400px;
+    margin: 6px 5px 0 0;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    }
+
+#clientName{
+    margin-top: 16px;
+    margin-bottom: 10px;
+    }
+
+input{
+    margin-top: 6px;
+    }
+#fields{
+    margin-top: 20px;
+    }
+
+label{
+    margin-top: 10px;
+    }
+
+select {
+  
+    width: 129px;
+    }
+
+#divResult{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+
+#btnKnop1{
+    background: #1B5E20;
+    border: 0;
+    color: white;
+    padding: 6px;
+    font-size: 0.75em;
+    font-weight: 700;
+   }   
+ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+   }    
+
+li{
+text-align: left;
+margin-top: -34px;
+text-indent: 25px;
+}
+
+.newItem{
+   max-height: 50px;
+    min-height: 50px;
+    font-size: 0.75em;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 8px;
+    color: #FAFAFA;
+    }
+
+
+.male{
+    background: #039BE5;
+    border: 1px solid #1A237E;
+   }
+
+.female{
+    background: #ea4c89;
+    border: 1px solid #1A237E;
+    }
+
+    .other{
+    background: #8D6E63;
+    border: 1px solid #3E2723;
+    }
+
+
+/*gender logo*/
+
+.male:before {
+    
+    line-height: 50px;
+    margin-left: 10px;
+    padding: 0;
+    margin-top: -30px;
+    content: '\2642';
+    font-size: 1.75em;
+    font-weight: bold;
+    opacity: 0.5;
+   }
+
+
+ .female:before {
+    
+    line-height: 50px;
+    margin-left: 10px;
+    padding: 0;
+    margin-top: -30px;
+    content: '\2640';
+    font-size: 1.75em;
+    font-weight: bold;
+    opacity: 0.5;
+   }
+
+
+ .other:before {
+    line-height: 50px;
+    margin-left: 10px;
+    padding: 0;
+    margin-top: -30px;
+    content: '\26A5';
+    font-size: 1.75em;
+    font-weight: bold;
+    opacity: 0.5;
+   }

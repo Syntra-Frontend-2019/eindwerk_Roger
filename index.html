@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eindwerk javascript - Roger Pecceu</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/eindwerk.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="title">
+        MNDR TNDR
+    </header>
+    <main id="main">
+        <div id="input">
+            <form>
+                <label for="Name">Name</label>
+                <input type="text" name="text" id="clientName" value="Roger Pecceu">
+                <div id="fields">
+                    <label id="bDay" for="birthday">Birthday</label>
+                    <p>
+                        <select name="day" id="selectDay"></select>
+                        <select name="month" id="selectMonth"></select>
+                        <select name="year" id="selectYear"></select>
+                    </p>
+                    <label for="name">Gender</label><br>
+                    <input type="radio" name="gender" value="male" id="male" checked> Male<br>
+                    <input type="radio" name="gender" value="female" id="female"> Female<br>
+                    <input type="radio" name="gender" value="other" id="other"> Other<br><br>
+                </div>
+                <button id="btnKnop1">ADD</button>
+            </form>
+        </div>
+
+
+
+        <div id="divResult"></div>
+    </main>
+
+</body>
+
+</html>
